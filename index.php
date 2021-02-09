@@ -68,7 +68,9 @@
 
 ?>
 <h2>Ejercicio2</h2>
+
 <?php 
+//ejercicio de botica
     include 'ejercicio2.3.php';
     print_chocolate(2);
     print_chicles(1);
@@ -80,6 +82,7 @@
 
 <h1>Ejercicio 3</h1>
 <?php 
+// ejercicio de algoritmo numeros primos
     include 'ejercicio3.3.php';
     criba(16);
 ?>
