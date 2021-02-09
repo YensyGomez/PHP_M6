@@ -55,6 +55,36 @@
 ?>
 
 <h1>NIVEL 3</h1>
+<h2>ejercicio1</h2>
+
+<?php 
+    include 'ejercicio1.3.php';
+    //años olimpicos.
+    echo "Olimpicos";
+    //Llamado a la funcion de los olimpicos.
+    echo "<br>";
+    olimpicos();
+    echo "<br>";
+
+?>
+<h2>Ejercicio2</h2>
+<?php 
+    include 'ejercicio2.3.php';
+    print_chocolate(2);
+    print_chicles(1);
+    print_caramelo(1);
+    $total = chocolate(2) + chicles(1) + caramelo(1);
+    echo "Total <br>";
+    echo $total
+?>
+
+<h1>Ejercicio 3</h1>
+<?php 
+    include 'ejercicio3.3.php';
+    criba(16);
+?>
+
+
 
 
 
