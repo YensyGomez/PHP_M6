@@ -32,6 +32,30 @@
     echo "<br>";
 ?>
 <h1>NIVEL 2</h1>
+<?php
+    // contar de 2 en 2
+    include 'ejercicio1.2.php';
+    echo "for hasta 10 de 2 en 2";
+    echo "<br>";
+    for_10_2(10);
+    echo "<br>";
+
+    // esta misma funcion trabaja para cualquier valor
+     echo "for de 2 en 2, para cualquier valor";
+     echo "<br>";
+     for_10_2(20);
+     echo "<br>";
+
+    // Parametro por defecto igual a 10 
+    $escondite = 10;
+    echo "for de 2 en 2 parametro por defecto = 10";
+    echo "<br>";
+    for_10_2($escondite);
+    echo "<br>";
+?>
+
+<h1>NIVEL 3</h1>
+
 
 
 </section>
